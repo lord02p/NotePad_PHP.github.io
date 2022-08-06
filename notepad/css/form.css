@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    width: 26vw;
+    height: 56vh;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    padding: 1rem;
+    background-color: rgb(0, 150, 136);
+}
+
+.form .text {
+    color: white;
+    margin-top: 1rem;
+}
+
+.logo {
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    margin-top: .4rem;
+    margin-bottom: 1rem;
+}
+
+.form input {
+    display: block;
+    width: 100%;
+    height: 5.5vh;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    padding-left: 12px;
+    margin-top: 2px;
+}
+
+.form button {
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    padding: 11px 20px;
+    font-size: 1rem;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.form svg {
+    position: relative;
+    bottom: 5.2rem;
+    left: 18.4rem;
+}
+
+.dummy_text {
+    text-align: end;
+    color: white;
+    margin-top: 13px;
+}
+
+.dummy_text a {
+    /* text-decoration: none; */
+    color: black;
+}
+
+.red {
+    display: flex;
+    justify-content: center;
+    margin-top: 7px;
+    padding: 11px;
+    background: #e32b2b87;
+    border: 1px solid red;
+    color: white;
+    border-radius: 3px;
+}
